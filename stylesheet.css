@@ -1,0 +1,345 @@
+*{box-sizing:border-box;}
+*{list-style: none;}
+
+.container {
+  width:100%;
+  max-width: 1024px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+.header-left {
+  float: left;
+}
+.header-left p {
+  color:white;
+  margin:20px 0px;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  border-bottom:none
+}
+
+.top-wrapper{
+  width:100%;
+  height:900px;
+  margin:0 auto;
+  background-image:url(top.JPG);
+  background-size:cover;
+  text-align: center;
+}
+.container h1{
+  padding:450px 0px;
+  opacity: 0.8;
+  color:white;
+  font-size: 30px;
+}
+
+.interest-wrapper {
+  height: 600px;
+  padding:50px 0px 00px 0px;
+  background-color:white;
+  text-align: center;
+}
+.interest-left{
+  float:left;
+  width:50%;
+  text-align: center;
+  padding-top:100px;
+  padding-right:50px;
+}
+.interest-left h2{
+  font-size: 35px;
+}
+.interest-left p{
+  font-size: 18px;
+  line-height: 40px;
+  padding:10px 0px 0px 0px;
+}
+.interest-right{
+  float:right;
+  width:50%;
+}
+.interest-right img{
+  border:8px solid #f5f5f5;
+  border-radius: 3000px;
+
+}
+
+.question1-wrapper{
+  width:100%;
+  height:400px;
+  margin:0 auto;
+  padding-right:0px;
+  padding-left:0px;
+  background-image:url(clock-4069029_1920.JPG);
+  background-size:cover;
+}
+.question1-wrapper p{
+  padding:200px 0px 0px 0px;
+  opacity:0.8;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.question2-wrapper{
+  width:100%;
+  height:400px;
+  margin:0 auto;
+  padding-right:0px;
+  padding-left:0px;
+  background-image:url(nogisu.JPG);
+  background-size:cover;
+}
+.question2-wrapper p{
+  padding:200px 0px 0px 0px;
+  float:right;
+  opacity: 0.8;
+  color:white;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.question3-wrapper{
+  width:100%;
+  height:400px;
+  margin:0 auto;
+  padding-right:0px;
+  padding-left:0px;
+  background-image:url(laptop-3174729_1920.JPG);
+  background-size:cover;
+}
+.question3-wrapper p{
+  float:left;
+  padding:200px 0px 0px 0px;
+  opacity:0.8;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.answer-wrapper{
+  height:260px;
+  padding-top: 50px;
+  background-color:#f5f5f5;
+  text-align: center;
+}
+.answer-wrapper h3{
+  font-size:30px;
+}
+.answer-wrapper p{
+  font-size: 18px;
+  padding:0px 30px;
+}
+
+.product-introduce-wrapper{
+  height:650px;
+  padding-top: 100px;
+  background-color:white;
+  text-align: center;
+}
+.product-introduce-wrapper h2{
+  font-size:50px;
+}
+.product-introduce-wrapper p{
+  font-size: 23px;
+  line-height: 50px;
+  padding:0px 10px;
+}
+
+.kimete-top-wrapper{
+  height:200px;
+  padding-top: 50px;
+  background-color:#f5f5f5;
+  text-align: center;
+  font-size: 25px;
+  opacity:0.8;
+  color:black;
+}
+
+.kimete1-wrapper {
+  height:360px;
+  padding-top:30px;
+  background-color:white;
+  text-align: center;
+}
+.kimete1-left{
+  float:left;
+  width:50%;
+  padding-top:30px;
+  text-align: center;
+}
+.kimete1-left h2{
+  font-size: 25px;
+}
+.kimete1-left p{
+  font-size: 15px;
+  color: #696969;
+  line-height: 35px;
+}
+.kimete1-right{
+  float:right;
+  width:50%;
+}
+
+.kimete2-wrapper {
+  height:360px;
+  padding-top:30px;
+  background-color:#f5f5f5;
+  text-align: center;
+}
+.kimete2-right{
+  float:right;
+  width:50%;
+  padding-top:30px;
+  text-align: center;
+}
+.kimete2-right h2{
+  font-size: 25px;
+}
+.kimete2-right p{
+  font-size: 15px;
+  color: #696969;
+  line-height: 35px;
+}
+.kimete2-left{
+  float:left;
+  width:50%;
+}
+
+.kimete3-wrapper {
+  height:460px;
+  padding-top:30px;
+  background-color:white;
+  text-align: center;
+}
+.kimete3-left{
+  float:left;
+  width:50%;
+  padding-top:0px;
+  text-align: center;
+}
+.kimete3-left h2{
+  font-size: 25px;
+}
+.kimete3-left p{
+  font-size: 15px;
+  color:#696969;
+  line-height: 35px;
+}
+.kimete3-right{
+  float:right;
+  width:50%;
+  padding-top:30px;
+}
+
+.kimete4-wrapper {
+  height:360px;
+  padding-top:30px;
+  background-color:#f5f5f5;
+  text-align: center;
+}
+.kimete4-right{
+  float:right;
+  width:50%;
+  padding-top:0px;
+  text-align: center;
+}
+.kimete4-right h2{
+  font-size: 25px;
+}
+.kimete4-right p{
+  font-size: 15px;
+  color: #696969;
+  line-height: 35px;
+}
+.kimete4-left{
+  float:left;
+  width:50%;
+}
+
+.environment-wrapper{
+  height: 600px;
+  background-image:url(back.JPG);
+  background-size:cover;
+  text-align: center;
+  color:white;
+  opacity: 0.8;
+}
+.environment-text h2{
+  padding-top:40px;
+}
+.environment-text h3{
+  font-size: 18px;
+  line-height: 0px;
+  padding-top: 20px;
+}
+
+.vision-wrapper{
+  width:100%;
+  height:500px;
+  margin:0 auto;
+  background-image:url(bitcoinIMGL9843_TP_V.JPG);
+  background-size:cover;
+  text-align: center;
+}
+.vision-text{
+    padding-top:200px;
+}
+.vision-text h2{
+  opacity: 0.8;
+  color:white;
+  font-size: 30px;
+}
+
+.form-wrapper{
+  height: 200px;
+  text-align: center;
+}
+.form{
+  margin:100px 150px;
+  border-radius: 5px;
+  background-color: rgba(10,10,10, 0.8);
+  transition: all 0.5s;
+}
+.form:hover {
+  background-color: rgba(102,102,102, 0.5);
+}
+.form a {
+  line-height: 80px;
+  color: white;
+  display: block;
+  border-bottom:none
+}
+
+footer {
+  height:45px;
+  padding-top:0px;
+  background-color:#333;
+}
+footer p{
+  float:right;
+  padding:0px 30px;
+  color:white;
+}
