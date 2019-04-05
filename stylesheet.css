@@ -5,6 +5,7 @@
   width:100%;
   max-width: 1024px;
   padding: 0px 15px;
+
   margin: 0 auto;
 }
 
@@ -37,14 +38,14 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
-  border-bottom:none
+  text-decoration: none;
 }
 
 .top-wrapper{
   width:100%;
   height:900px;
   margin:0 auto;
-  background-image:url(top.jpg);
+  background-image:url(top.JPG);
   background-size:cover;
   text-align: center;
 }
@@ -92,7 +93,7 @@ header {
   margin:0 auto;
   padding-right:0px;
   padding-left:0px;
-  background-image:url(clock-4069029_1920.jpg);
+  background-image:url(clock-4069029_1920.JPG);
   background-size:cover;
 }
 .question1-wrapper p{
@@ -109,7 +110,7 @@ header {
   margin:0 auto;
   padding-right:0px;
   padding-left:0px;
-  background-image:url(nogisu.jpg);
+  background-image:url(nogisu.JPG);
   background-size:cover;
 }
 .question2-wrapper p{
@@ -127,7 +128,7 @@ header {
   margin:0 auto;
   padding-right:0px;
   padding-left:0px;
-  background-image:url(laptop-3174729_1920.jpg);
+  background-image:url(laptop-3174729_1920.JPG);
   background-size:cover;
 }
 .question3-wrapper p{
@@ -281,7 +282,7 @@ header {
 
 .environment-wrapper{
   height: 600px;
-  background-image:url(back.jpg);
+  background-image:url(back.JPG);
   background-size:cover;
   text-align: center;
   color:white;
@@ -300,7 +301,7 @@ header {
   width:100%;
   height:500px;
   margin:0 auto;
-  background-image:url(bitcoinIMGL9843_TP_V.jpg);
+  background-image:url(bitcoinIMGL9843_TP_V.JPG);
   background-size:cover;
   text-align: center;
 }
@@ -314,17 +315,19 @@ header {
 }
 
 .form-wrapper{
-  height: 200px;
+  height: 900px;
   text-align: center;
 }
 .form{
   margin:100px 150px;
+  padding-bottom:50px;
   border-radius: 5px;
   background-color: rgba(10,10,10, 0.8);
   transition: all 0.5s;
+  color:white;
 }
 .form:hover {
-  background-color: rgba(102,102,102, 0.5);
+  background-color: rgba(10,10,10, 0.8);
 }
 .form a {
   line-height: 80px;
@@ -332,14 +335,18 @@ header {
   display: block;
   border-bottom:none
 }
+.form-700{
+  display: none;
+}
+
 
 footer {
   height:45px;
   padding-top:0px;
   background-color:#333;
 }
-footer p{
+footer a{
   float:right;
-  padding:0px 30px;
+  padding:10px 30px;
   color:white;
 }
