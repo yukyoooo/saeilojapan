@@ -206,14 +206,17 @@ header{
 .form-wrapper{
   height:200px;
 }
+.form-wrapper a{
+  color:white;
+}
 .form {
   display: none;
 }
 .form-700{
   display: block;
-  padding:80px 0px;
+  padding:50px 0px;
 }
-.form-700 a{
+.form-700 p{
   font-size:10px;
   line-height: 20px;
 }
